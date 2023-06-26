@@ -1,0 +1,60 @@
+export const getMoves = (move) => {
+    switch(move) {
+        case 'swords-dance':
+            return 'swords-dance';
+        case "cut":
+            return "cut";
+        case "bind":
+            return "bind";
+        case 'headbutt':
+            return 'headbutt';
+        case 'vine-whip':
+            return 'vine-whip';
+        case "razor-wind":
+            return "razor-wind";
+        case 'mega-punch':
+            return 'mega-punch';
+        case 'fire-punch':
+            return 'fire-punch';
+        case 'thunder-punch':
+            return 'fire-punch';
+        case 'scratch':
+            return 'scratch';
+        case 'ice-punch':
+            return 'ice-punch';
+        case "mega-kick":
+            return "mega-kick";
+        case 'tackle':
+            return 'tackle';
+        case 'string-shot':
+            return 'string-shot';
+        case "snore":
+            return "snore";
+        case "bug-bite":
+            return "bug-bite";
+            case 'electroweb':
+            return 'electroweb';
+        case 'harden':
+            return 'harden';
+        case 'iron-defense':
+            return 'iron-defense';
+        case 'gust':
+            return 'gust';
+        case "whirlwind":
+            return "whirlwind";
+        case 'poison-sting':
+            return 'poison-sting';
+        case 'fury-attack':
+            return 'fury-attack';
+        case 'take-down':
+            return 'take-down';
+        case "wing-attack":
+            return "wing-attack";
+        case "fly":
+            return  "fly";
+        case 'body-slam':
+            return 'body-slam';
+        default:
+            return <h1>Não existe</h1>
+    }
+}
